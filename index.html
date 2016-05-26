@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="sheetrock.css">
+    <script type="text/javascript" src="scripts/interaction.js"></script>
+
+    <title>ID Card Maker</title>
+  </head>
+  <body>
+    <h1>ID Card Maker</h1>
+
+    <p>Enter in your biographical information into the form below to create an ID card.</p>
+
+
+    <div id="idCard">
+      <p>First Name:
+<input placeholder="First name" id="fname" type="text" ></input></p>
+<p>Last Name: <input placeholder="Last Name" id="lname" type="text" placeholder="Last Name"></input></p>
+<p>Nickname: <input placeholder="Nickname" id="nname" type="text" placeholder="Nickname"></input></p>
+<p>Height: <input type="number" id="height" placeholder="Height"></input</p>
+<p>Weight: <input type="number" id="weight" placeholder="Weight"></input></p>
+<p>Address: <input type="text" id="addy" placeholder="Address"></input></p>
+<p>City: <input type="text" id="city" placeholder="City"></input></p>
+<p>State: <select name="state" id="state">
+  <option value="mn">Minnesota</option>
+  <option value="nmn">Not Minnesota</option>
+</select>
+
+<p>Email: <input placeholder="Email" type="text"></input></p>
+<p>Phone: <input type="tel" placeholder="Phone Number"></input></p>
+
+
+
+<p>Eyecolor: <select name="eyeColor">
+  <option value="amber">Amber</option>
+  <option value="blue">Blue</option>
+  <option value="brown">Brown</option>
+  <option value="gray">Gray</option>
+  <option value="green">Green</option>
+  <option value="hazel">Hazel</option>
+  <option value ="rav">Red and Violet</option>
+</select>
+
+<br><br>
+
+
+<button onclick="makeId()"  id="btn">Submit here!</button>
+    </div>
+
+  </body>
+</html>

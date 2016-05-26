@@ -1,0 +1,25 @@
+
+body {
+  background-color:grey;
+}
+
+h1 {
+  color:black;
+  text-align:center;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+p {
+  text-align:center;
+  font-family: Georgia, 'Times New Roman', serif;
+
+}
+
+#idCard p {
+  text-align:left;
+
+}
+
+#idCard {
+  text-align:left;
+}
